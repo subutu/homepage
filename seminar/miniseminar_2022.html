@@ -16,50 +16,334 @@
 	<script id="MathJax-script" async
 		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 	</script>
+	<style>
+	th {text-align: center;}
+	td {text-align: center;}
+	</style>
 	</head>
 
 	<body>
 	<header>
 
 	<h1>数物系サーバー春の新歓イベント 2022</h1>
-	<nav>
+	<!-- <nav>
 		<a href="../index.html">HOME</a>
 		<a href="../event.html">イベント</a>
 		<a href="../math/index.html">数学</a>
 		<a href="../phys/index.html">物理</a>
 		<a href="../mathphys/index.html">数理物理</a>
 		<a href="../link.html">リンク集</a>
-	</nav>
+	</nav> -->
 	</header>
 
-	<h2>開催日</h2>
+	<h3>目次</h3>
 	<ul>
-	        <li>4/9</li>
-			<li>4/10</li>
-			<li>4/16</li>
-			<li>4/17</li>
+	        <li><a href="#server">数物系サーバー</a></li>
+			<li><a href="#this_seminar">新歓ミニセミナー</a></li>
+			<li><a href="#time_table">講演日程</a></li>
+			<li><a href="#abstracts">講演概要</a></li>
 	</ul>
+	<h3 id="server">数物系サーバー</h3>
+	<p>
+		数学・物理を学ぶ人たちや興味を持っている人たちが交流するためのサーバーです。
+		自由に参加することができますので、興味のある方はぜひご参加ください！
+	</p>
+	<ul>
+	        <li><a href="https://discord.gg/XJzFEFrdgE">サーバー参加リンク</a></li>
+			<li><a href="https://twitter.com/subutu_official">数物系公式Twitter</a></li>
+	</ul>
+	<h3 id="this_seminar">新歓ミニセミナー</h3>
+	<p>
+	数物系サーバーでは新歓イベント(春祭り)の一環としてミニセミナーを行います！
+	セミナーはサーバー内の講義室カテゴリーで行われます。
+	興味のあるセミナーには積極的に参加してみてください！
+	</p>
+	<h3 id="time_table">講演日程</h3>
+	<table>
+			<thead>
+					<tr>
+					        <th>時間</th>
+							<th>講演題目</th>
+							<th>講演者</th>
+					</tr>
+			</thead>
+	        <tr>
+	                <td><b>4/9(土)</b></td>
+					<td></td>
+					<td></td>
+	        </tr>
+			<tr>
+			        <td>13:30 ~ 14:00</td>
+					<td>開会式</td>
+					<td>数物系サーバー</td>
+			</tr>
+			<tr id="universe">
+			        <td>14:00 ~ 15:00</td>
+					<td><a href="#universe_abs">神の指 (Fingers-of-God) -人類は宇宙の姿を正しく捉えることができるか？</a></td>
+					<td>キャルちゃんさん</td>
+			</tr>
+			<tr id="ed">
+					<td>15:00 ~ 16:00</td>
+			        <td><a href="#ed_abs">$\varepsilon$-$\delta$をしようの会</a></td>
+					<td>ゆいさん</td>
+			</tr>
+			<tr id="abs">
+			        <td>18:00 ~ 19:00</td>
+					<td><a href="#abs_abs">改訂版 Abstract Nonsense の世界へ </a></td>
+					<td>$\lnot$L さん</td>
+			</tr>
+			<tr id="latex">
+			        <td>20:00 ~ 21:00</td>
+					<td><a href="#latex_abs">$\LaTeX$入門講座</a></td>
+					<td>(未定)</td>
+			</tr>
+			<tr>
+			        <td><b>4/10(日)</b></td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr id="carrier">
+			        <td>13:00 ~ 14:00</td>
+					<td><a href="#carrier_abs">私のキャリアパス</a></td>
+					<td>キャルちゃんさん</td>
+			</tr>
+			<tr id="equiv">
+			        <td>14:30 ~ 16:00</td>
+					<td><a href="#equiv_abs">さわる！同値類 in パズル( ライツアウトパズル )</a> </td>
+					<td>ういきあさん</td>
+			</tr>
+			<tr id="padic">
+					<td>18:00 ~ 19:00</td>
+			        <td><a href="#padic_abs">p進入門</a></td>
+					<td>Yuki_monea さん</td>
+			</tr>
+			<tr id="tqft">
+			        <td>20:00 ~ 21:00</td>
+					<td><a href="#tqft_abs">位相的場の量子論の基礎</a></td>
+					<td>Yonoさん</td>
+			</tr>
+			<tr id="qm">
+			        <td>21:00 ~ 22:00</td>
+					<td><a href="#qm_abs">Stern Gerlachの実験から始める量子力学</a></td>
+					<td>ほほほさん</td>
+			</tr>
+			<tr>
+			        <td><b>4/16(土)</b></td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr id="reserch">
+			        <td>13:00 ~ 14:00</td>
+					<td><a href="#reserch_abs">Research Connect Re:Dive (キャルちゃんの論文チェック、その裏側)</a></td>
+					<td>キャルちゃんさん</td>
+			</tr>
+			<tr id="ag">
+					<td>14:00 ~ 16:00</td>
+			        <td><a href="#ag_abs">Introduction to Algebraic Geometry</a></td>
+					<td>ゆいさん</td>
+			</tr>
+			<tr id="rep">
+			        <td>18:00 ~ 19:00</td>
+					<td><a href="#rep_abs">古典的な表現論のはなし</a></td>
+					<td>IWANEさん</td>
+			</tr>
+			<tr id="peanp">
+			        <td>20:00 ~ 21:30</td>
+					<td><a href="#peano_abs">Peanoの空間充填曲線</a></td>
+					<td>Mathbellさん</td>
+			</tr>
+			<tr>
+			        <td><b>4/17(日)</b></td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr id="b1">
+			        <td>15:00 ~ 16:30</td>
+					<td><a href="#b1_abs">学部1年の力学・電磁気学の入門</a></td>
+					<td>Topoさん</td>
+			</tr>
+			<tr id="dinamic">
+					<td>17:00 ~ 18:00</td>
+			        <td><a href="#dinamic_abs">力学系やりませんか？</a></td>
+					<td>toruさん</td>
+			</tr>
+			<tr id="edu">
+			        <td>18:00 ~ 19:00</td>
+					<td><a href="#edu_abs">Self Introduction-教育っぽい話をします</a></td>
+					<td>ゆいさん</td>
+			</tr>
+			<tr id="riemann">
+			        <td>20:00 ~ 21:30</td>
+					<td><a href="#riemann_abs">解析的整数論入門 リーマン・ゼータ関数と愉快な仲間達</a></td>
+					<td>ぱいさん</td>
+			</tr>
+	</table>
+	<h3 id="abstracts">講演概要</h3>
+
+	<p id="universe_abs">
+<a href="#universe">
+        神の指 (Fingers-of-God) -人類は宇宙の姿を正しく捉えることができるか？- (キャルちゃん さん)
+</a>
+<br>
+　この宇宙には大規模構造(large-scale structure)と呼ばれる構造が存在します。それらを観測することによって宇宙初期に何が起こったのかを探り、一般相対論ならびに重力モデルの検証を行うことができます。本発表では大規模構造を形成している銀河の観測から出現する「神の指 (Fingers-of-God)」およびそれを理解するのに必要な物理過程についてご紹介します。また皆様にはそこから見えてくる宇宙論研究の楽しさ・難しさの一端に触れていただきます。 
+
+</p>
+<p id="ed_abs">
+	<a href="#ed">
+	        ε-δをしようの会 (ゆい🍀 さん)
+	</a>
+	<br>
 	
-	<h2>新歓イベントの内容</h2>
-	<h3>ミニセミナー</h3>
-	<p>
-	1講演30～120分ほどで自由にセミナーが開かれます。
-	発表の内容や時間、形式はそれぞれの自由です！
-	高校生や1,2回生向けの内容だけでなく、みんなの興味のある分野・専門の分野・最近勉強した内容など幅広くお待ちしています。
-	事前の講演者募集は下をご確認ください。
-	</p>
+　大学1年生で苦戦すると名前だけは聞くε-δ論法に触れてみましょう！ 
 
-	<h3>VCでの交流</h3>
-	<p>
-	新歓用のVCでたくさん話しましょう！
-	普段の交流用VCだけでなく、数学用・物理用のVCや新生活について話すVCなどなどイベント用のVCも設置されます。
-	普段VCや雑談チャットに入りにくさ、ハードルを感じている方もこの機会にぜひ参加してください！
-	</p>
+</p>
 
-	<p>
-	他にも新歓イベントに併せたサーバーのアップデートなどの情報は後日公開します。
-	しばらくお待ちください。
-	</p>
+<p id="abs_abs">
+<a href="#abs">
+        改訂版　Abstract Nonsenseの世界へ (¬L さん)
+</a>
+<br>
+　圏論を始めとする抽象論について、すこし風変わりな入門を行います。かつて同じタイトルで発表したことがありますが、テーマだけ引き継いで全く異なる発表をするつもりです。
+
+</p>
+
+
+<p id="latex_abs">
+<a href="#latex">
+        LaTeX入門講座
+</a>
+<br>
+
+　LaTeXで文書を書いたことのない方向けです。LaTeXの使い方などを一緒に使いながら見ていきましょう！
+※説明ではCloudLaTeXを使います。環境構築や他のLaTeXサービスへの登録が済んでいる方はそのままそれを使用していただいても大丈夫です。環境構築に関するレクチャーは行いません。</p>
+
+
+<p id="carrier_abs">
+<a href="#carrier">
+        私のキャリアパス  (キャルちゃん さん)
+</a>
+<br>
+　私、キャルちゃんがこれまでに大学でどのような学生生活・研究生活を送り、大学院のあとはどのようなキャリアを送ってきたのか、なぜ今アメリカにいるのかなどについて語ります。私の人生経験から皆様の今後のヒントになるような話題が提供できれば幸いです。 
+</p>
+
+
+<p id="equiv_abs">
+<a href="#equiv">
+        さわる！同値類 in パズル( ライツアウトパズル ) (ういきあ さん)
+</a>
+<br>
+　ライツアウトというパズルがあります。このパズルの面白い所と、その解き方のヒントを探っていこう、という内容の予定です。(うまく行けば、4×4正方形のライツアウトパズルも解けるようになるかもしれません！) 
+
+</p>
+
+<p id="padic_abs">
+<a href="#padic">
+        p進入門 (Yuki_monea さん)
+</a>
+<br>
+　近年、整数論において数々の数学者によって多くの姿が目撃されているp進について前提知識を仮定せずにお話します。また私の研究分野でもあるp進Hodge理論とその周辺についても、できるだけ分かりやすくお話したいと思います。 
+</p>
+
+
+
+<p id="tqft_abs">
+<a href="#tqft">
+        位相的場の量子論の基礎 (Yono さん)
+</a>
+<br>
+
+　位相的場の量子論について話します. 前提知識は圏論の基礎です. 
+</p>
+
+<p id="qm_abs">
+<a href="#qm">
+        Stern Gerlachの実験から始める量子力学 (ほほほ⸜🐰⸝ さん)
+</a>
+<br>
+　量子力学のイントロダクションとして扱われる話題として，黒体輻射やコンプトン散乱などが歴史的理由として多数はであるが，いずれも相対論や統計力学といった(量子力学を履修する時期からすれば)発展的な知識が必要である．本講演では高校レベルの物理の知識で直感的に理解できる実験事実を通じて，古典力学ではダメで量子力学が必要であることを述べる．といっても，J.J. Sakurai, 現代の量子力学の最初のほうの受け売りであることはあしからず...． 
+
+</p>
+
+
+<p id="reserch_abs">
+<a href="#reserch">
+        Research Connect Re:Dive (キャルちゃんの論文チェック、その裏側) (キャルちゃん さん)
+</a>
+<br>
+　本講演発表者はそのTwitterアカウントにおいて「キャルちゃんのastrophチェック」として宇宙物理の最新論文要約、「キャルちゃんのquantphチェック」として量子情報の最新論文要約を行い、皆様にご紹介する活動を続けています。今回は最新論文の要約に用いているツールや論文要旨(abstract)の読み方などをご説明いたします。 
+
+</p>
+
+<p id="ag_abs">
+<a href="#ag">
+        Introduction to Algebraic Geometry (ゆい🍀 さん)
+</a>
+<br>
+　放物線や円からスタートして代数幾何学という分野に触れてみましょう！(予告は詐欺の場合があります。)
+</p>
+
+<p id="rep_abs">
+<a href="#rep">
+        古典的な表現論のはなし (IWANE さん)
+</a>
+<br>
+　表現論の古典的な話題であるSchur-Weyl dualityを目標としつつ、表現論の基本的な話題を紹介します。Schur-Weyl dualityとは、テンソル積に対称群と一般線型群をそれぞれ自然に作用させたとき、片方の表現空間としての既約成分への分解から他方の表現空間としての分解も得られるという興味深い話です。実際はここの話は紹介程度で終わる可能性が高く、表現論の基本的な話題の紹介に多くの時間を使うと思います。前提知識は線型代数と群論です。
+</p>
+
+<p id="peano_abs">
+
+<a href="#peano">
+        Peanoの空間充填曲線 (Mathbell さん)
+</a>
+<br>
+　位相空間論において，空間充填曲線(Space-filling Curve)とは正方形を埋め尽くすような曲線のことである。本講義では，その一種である，1890年にG.Peanoによって発見されたPeano曲線について紹介する。予備知識として，集合と位相に関する基礎知識を要請する。
+
+</p>
+
+<p id="b1_abs">
+<a href="#b1">
+        学部1年の力学・電磁気学の入門 (Topo さん)
+</a>
+<br>
+　わたしが学部1年の時に学んだ物理学について力学・電磁気学の分野をメインに発表します。初学者向けです。どちらかと言うと、物理学徒でない人向きかもしれません。
+</p>
+
+
+<p id="dinamic_abs">
+
+<a href="#dinamic">
+        力学系やりませんか？ (toru さん)
+</a>
+<br>
+　力学系（dynamical systems）がどういった分野なのかを簡単に説明します．モチベーションのみ話すので数学の知識はほぼいらないかと思います（物理学系の人も気軽に聞けるかと・・・）
+</p>
+
+<p id="edu_abs">
+<a href="#edu">
+        Self Introduction-教育っぽい話をします- (ゆい🍀 さん)
+</a>
+<br>
+　教職志望の方や教員になるまでに興味がある方もいらっしゃると思います。そこで私自身の自己紹介を通して、教育実習や教員採用試験、実際に着任するときどうかなどといったことをお話ししたいと思います。
+</p>
+
+
+<p id="riemann_abs">
+<a href="#riemann">
+        解析的整数論入門 リーマン・ゼータ関数と愉快な仲間達 (ぱい さん)
+</a>
+<br>
+　解析学的な手法 (極限や微分・積分) が素数の研究にどのように役立つかを説明します。主役はリーマンのゼータ関数になると思いますが、その他色々なゼータ関数も紹介します。前提知識は高校数学だけとします。
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 	</body>
